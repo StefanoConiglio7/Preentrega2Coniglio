@@ -1,0 +1,36 @@
+.container {
+    padding: 20px;
+}
+
+.cartSummary {
+    margin-bottom: 20px;
+}
+
+.checkoutForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+.backToCart {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
